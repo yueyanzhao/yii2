@@ -211,10 +211,10 @@ use app\components\HelloWidget;
 创建小部件时仍需要遵循MVC模式，通常逻辑代码在小部件类，
 展示内容在[视图](structure-views.md)中。
 
-小部件设计时应是独立的，也就是说使用一个小部件时候，
+小部件设计时应是独立的，也就是说使用一个小部件的时候，
 可以直接丢弃它而不需要额外的处理。
-但是当小部件需要外部资源如 CSS，JavaScript，图片等会比较棘手，
-幸运的时候Yii提供 [资源包](structure-asset-bundles.md) 来解决这个问题。
+但是当小部件需要外部资源如 CSS，JavaScript，图片等时会比较棘手，
+幸运的是Yii提供 [资源包](structure-asset-bundles.md) 来解决这个问题。
 
 当一个小部件只包含视图代码，它和[视图](structure-views.md)很相似，
 实际上，在这种情况下，唯一的区别是小部件是可以重用类，
